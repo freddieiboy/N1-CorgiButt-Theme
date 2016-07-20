@@ -1,7 +1,7 @@
-# CorgiButt
-The N1 CorgiButt theme is a subtle corgi butt. That's all you need to know.
+# CorgiButts
+The N1 CorgiButts theme is a subtle corgi butt. That's all you need to know.
 
-## Install CorgiButt
+## Install CorgiButts
 1. Download Nylas N1
 2. Download this repo
-3. Open N1>Preferences>General>Select theme and select Install new theme... from the dropdown
+3. Open N1>Install theme and select CorgiButts... from the dropdown
