@@ -1,0 +1,33 @@
+// Threadlist
+.column-ThreadList {
+  .thread-list {
+    .thread-icon {
+      &.thread-icon-unread {
+        background-image: none;
+        background-color: @corgiButt;
+        border-radius: 50%;
+        height: .7em;
+        width: .7em;
+      }
+    }
+  }
+}
+
+// Swipe colors
+.thread-list, .draft-list {
+  .swipe-backing {
+    &.swipe-trash {
+      background-color: @corgiSunshine;
+      &.confirmed {
+        background-color: #FFCD5E;
+      }
+    }
+    // SNOOZE
+    &.swipe-snooze {
+    background-color: @corgiPool;
+      &.confirmed {
+        background-color: #42BED4;
+      }
+    }
+  }
+}
