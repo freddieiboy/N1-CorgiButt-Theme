@@ -1,6 +1,8 @@
 # CorgiButts
 The N1 CorgiButts theme is a subtle corgi butt. That's all you need to know.
 
+## [TODO ADD PREVIEW IMAGE]
+
 ## TODOS
 - [ ] Create custom illustration for empty state on inbox/unread
 - [ ] Modify empty state for icons for the rest of the account-sidebar
