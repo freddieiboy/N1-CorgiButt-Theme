@@ -1,10 +1,10 @@
 {
-  "name": "cuteaf",
-  "title": "A cute af theme.",
-  "displayName": "cuteaf",
+  "name": "CorgiButt",
+  "title": "CorgiButt",
+  "displayName": "CorgiButt",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "",
+  "description": "A subtle light theme inspired by corgi butts.",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
