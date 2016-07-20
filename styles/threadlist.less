@@ -17,17 +17,21 @@
 .thread-list, .draft-list {
   .swipe-backing {
     &.swipe-trash {
-      background-color: @corgiSunshine;
+      background-color: @corgiSunshine !important;
       &.confirmed {
-        background-color: #FFCD5E;
+        background-color: #FFCD5E !important;
       }
     }
     // SNOOZE
     &.swipe-snooze {
-    background-color: @corgiPool;
+    background-color: @corgiPool !important;
       &.confirmed {
-        background-color: #42BED4;
+        background-color: #42BED4 !important;
       }
     }
   }
+}
+
+.undo-redo {
+  background-color: @corgiNose;
 }

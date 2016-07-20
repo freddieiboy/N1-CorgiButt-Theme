@@ -1,0 +1,22 @@
+// Toolbar
+.sheet-toolbar {
+
+  // Buttons
+  .btn-toolbar {
+    background: @corgiTummy;
+    // box-shadow: none;
+
+    &:active {
+      color: @corgiTummy;
+      background: @corgiPool;
+      img.content-mask {
+        background-color: @corgiTummy;
+      }
+    }
+
+    // Button Icon Colors
+    img.content-mask {
+      background-color: darken(@corgiPool, 20%);
+    }
+  }
+}

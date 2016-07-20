@@ -1,11 +1,22 @@
 // Sidebar
 .column-RootSidebar {
   min-width: 250px;
-  padding: 20px;
+  padding: 10px 0 0 10px;
 
+  .account-sidebar {
+    background: none;
+  }
   .nylas-outline-view {
-    .heading {
-      
+    .item {
+      &.selected {
+        background: none;
+      }
+      &:not(.selected) {
+        color: @corgiNose;
+        img.content-mask {
+          background-color: lighten(@corgiNose, 50%);
+        }
+      }
     }
   }
 }
